@@ -1,0 +1,26 @@
+{
+  "name": "observice",
+  "version": "1.0.0",
+  "description": "Fiddling with things",
+  "main": "src/observice,js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarhed/repoff.git"
+  },
+  "keywords": [
+    "observables",
+    "service"
+  ],
+  "author": "Jared Tilston <jared.tilston@bulkpowders.com> (http://www.bulkpowders.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarhed/repoff/issues"
+  },
+  "homepage": "https://github.com/jarhed/repoff#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
