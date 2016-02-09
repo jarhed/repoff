@@ -20,5 +20,17 @@ describe('observice', function () {
 
 			expect(observice.all).to.include(country);
 		});
+
+		it('should return an array if given a number', function () {
+
+			var randomItems = observice.random(3);
+
+			expect(randomItems).to.have.length(3);
+
+			randomItems.forEach(function (item) {
+				expect(observice.all).to.include(item);
+			});
+
+		});
 	});
 });
