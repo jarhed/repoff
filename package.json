@@ -5,8 +5,8 @@
   "main": "src/observice,js",
   "scripts": {
     "commit": "git-cz",
-    "test": "mocha src/observice.test.js -w",
-    "test": "mocha src/observice.test.js"
+    "test": "mocha test/observice.test.js -w",
+    "test:single": "mocha test/observice.test.js"
   },
   "repository": {
     "type": "git",
